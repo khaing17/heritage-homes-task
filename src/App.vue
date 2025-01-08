@@ -1,9 +1,8 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
-    <p class="text-red-400 font-cinzel">Hello World</p>
+    <router-view></router-view>
   </div>
 </template>
 
