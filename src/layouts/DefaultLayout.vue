@@ -1,6 +1,7 @@
 <template>
   <div>
     <HeroBar />
+    <NavBar />
     <main class="p-4">
       <router-view />
     </main>
@@ -9,7 +10,7 @@
 
 <script lang="ts" setup>
 import HeroBar from "@/components/HeroBar.vue";
-import Footer from "@/components/Footer.vue";
+import NavBar from "@/components/NavBar.vue";
 </script>
 
 <style scoped></style>

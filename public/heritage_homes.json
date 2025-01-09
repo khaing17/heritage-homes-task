@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "name": "Victorian Charm",
+    "description": "A beautifully preserved Victorian-style home with intricate woodwork and stained glass windows.",
+    "image": "https://via.placeholder.com/400x300?text=Victorian+Charm",
+    "price_per_month": 3200,
+    "location": {
+      "city": "San Francisco",
+      "state": "California",
+      "country": "USA"
+    },
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area": "2500 sqft",
+    "features": ["Garden", "High Ceilings", "Fireplace", "Hardwood Floors"]
+  },
+  {
+    "id": 2,
+    "name": "Colonial Manor",
+    "description": "A spacious colonial-style home with modern amenities and classic architectural details.",
+    "image": "https://via.placeholder.com/400x300?text=Colonial+Manor",
+    "price_per_month": 2800,
+    "location": {
+      "city": "Charleston",
+      "state": "South Carolina",
+      "country": "USA"
+    },
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": "2200 sqft",
+    "features": ["Porch", "Wood Paneling", "Large Yard", "Garage"]
+  },
+  {
+    "id": 3,
+    "name": "Art Deco Delight",
+    "description": "An Art Deco masterpiece with sleek lines, geometric details, and a rooftop terrace.",
+    "image": "https://via.placeholder.com/400x300?text=Art+Deco+Delight",
+    "price_per_month": 4000,
+    "location": {
+      "city": "Miami",
+      "state": "Florida",
+      "country": "USA"
+    },
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "area": "3000 sqft",
+    "features": [
+      "Rooftop Terrace",
+      "Swimming Pool",
+      "Ocean View",
+      "Modern Kitchen"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tudor Treasure",
+    "description": "A charming Tudor-style home with exposed beams and a cozy interior.",
+    "image": "https://via.placeholder.com/400x300?text=Tudor+Treasure",
+    "price_per_month": 2700,
+    "location": {
+      "city": "Portland",
+      "state": "Oregon",
+      "country": "USA"
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "1800 sqft",
+    "features": [
+      "Exposed Beams",
+      "Stone Fireplace",
+      "Quiet Neighborhood",
+      "Lush Garden"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Gothic Revival",
+    "description": "A striking Gothic Revival home with dramatic arches and antique charm.",
+    "image": "https://via.placeholder.com/400x300?text=Gothic+Revival",
+    "price_per_month": 3500,
+    "location": {
+      "city": "Savannah",
+      "state": "Georgia",
+      "country": "USA"
+    },
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": "2600 sqft",
+    "features": [
+      "Antique Fixtures",
+      "Vaulted Ceilings",
+      "Historic Neighborhood",
+      "Balcony"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Craftsman Cottage",
+    "description": "A cozy craftsman-style home with a welcoming front porch and built-in shelves.",
+    "image": "https://via.placeholder.com/400x300?text=Craftsman+Cottage",
+    "price_per_month": 2000,
+    "location": {
+      "city": "Seattle",
+      "state": "Washington",
+      "country": "USA"
+    },
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": "1500 sqft",
+    "features": [
+      "Front Porch",
+      "Built-In Shelves",
+      "Hardwood Floors",
+      "Fireplace"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mediterranean Villa",
+    "description": "An elegant Mediterranean-style home with a tile roof and arched windows.",
+    "image": "https://via.placeholder.com/400x300?text=Mediterranean+Villa",
+    "price_per_month": 4500,
+    "location": {
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "USA"
+    },
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "area": "3500 sqft",
+    "features": ["Tile Roof", "Arched Windows", "Swimming Pool", "Garden"]
+  },
+  {
+    "id": 8,
+    "name": "Prairie Style Home",
+    "description": "A classic Prairie-style home with horizontal lines and open floor plans.",
+    "image": "https://via.placeholder.com/400x300?text=Prairie+Style+Home",
+    "price_per_month": 3200,
+    "location": {
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "USA"
+    },
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": "2800 sqft",
+    "features": [
+      "Open Floor Plan",
+      "Wood Accents",
+      "Spacious Backyard",
+      "Large Windows"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Farmhouse Retreat",
+    "description": "A rustic farmhouse-style home with a wraparound porch and barn-style doors.",
+    "image": "https://via.placeholder.com/400x300?text=Farmhouse+Retreat",
+    "price_per_month": 2500,
+    "location": {
+      "city": "Austin",
+      "state": "Texas",
+      "country": "USA"
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "2000 sqft",
+    "features": [
+      "Wraparound Porch",
+      "Barn-Style Doors",
+      "Fireplace",
+      "Wood Paneling"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Modernist Haven",
+    "description": "A sleek modernist-style home with open spaces and a minimalist design.",
+    "image": "https://via.placeholder.com/400x300?text=Modernist+Haven",
+    "price_per_month": 5000,
+    "location": {
+      "city": "New York City",
+      "state": "New York",
+      "country": "USA"
+    },
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": "1800 sqft",
+    "features": [
+      "Minimalist Design",
+      "Large Windows",
+      "Terrace",
+      "Smart Home Features"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Georgian Estate",
+    "description": "A grand Georgian-style home with symmetrical architecture and an expansive garden.",
+    "image": "https://via.placeholder.com/400x300?text=Georgian+Estate",
+    "price_per_month": 6000,
+    "location": {
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "USA"
+    },
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "area": "5000 sqft",
+    "features": [
+      "Symmetrical Architecture",
+      "Expansive Garden",
+      "Elegant Staircase",
+      "Library"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Beachside Bungalow",
+    "description": "A cozy beachside bungalow with a serene ocean view and private deck.",
+    "image": "https://via.placeholder.com/400x300?text=Beachside+Bungalow",
+    "price_per_month": 3800,
+    "location": {
+      "city": "Malibu",
+      "state": "California",
+      "country": "USA"
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "1700 sqft",
+    "features": [
+      "Ocean View",
+      "Private Deck",
+      "Outdoor Shower",
+      "Open Concept Design"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Chalet Bliss",
+    "description": "A quaint mountain chalet with scenic views and a cozy fireplace.",
+    "image": "https://via.placeholder.com/400x300?text=Chalet+Bliss",
+    "price_per_month": 3000,
+    "location": {
+      "city": "Aspen",
+      "state": "Colorado",
+      "country": "USA"
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "1800 sqft",
+    "features": ["Mountain Views", "Fireplace", "Wooden Interiors", "Deck"]
+  },
+  {
+    "id": 14,
+    "name": "Rustic Retreat",
+    "description": "A charming rustic home with exposed beams and a large garden.",
+    "image": "https://via.placeholder.com/400x300?text=Rustic+Retreat",
+    "price_per_month": 2400,
+    "location": {
+      "city": "Boulder",
+      "state": "Colorado",
+      "country": "USA"
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "2000 sqft",
+    "features": [
+      "Exposed Beams",
+      "Fireplace",
+      "Lush Garden",
+      "Spacious Kitchen"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Mid-Century Modern",
+    "description": "A classic mid-century modern home with clean lines and large windows.",
+    "image": "https://via.placeholder.com/400x300?text=Mid-Century+Modern",
+    "price_per_month": 4300,
+    "location": {
+      "city": "Palm Springs",
+      "state": "California",
+      "country": "USA"
+    },
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": "2400 sqft",
+    "features": ["Clean Lines", "Open Spaces", "Large Windows", "Outdoor Pool"]
+  },
+  {
+    "id": 16,
+    "name": "Urban Loft",
+    "description": "A stylish urban loft with industrial accents and a rooftop deck.",
+    "image": "https://via.placeholder.com/400x300?text=Urban+Loft",
+    "price_per_month": 3800,
+    "location": {
+      "city": "Brooklyn",
+      "state": "New York",
+      "country": "USA"
+    },
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": "1400 sqft",
+    "features": [
+      "Industrial Accents",
+      "Rooftop Deck",
+      "High Ceilings",
+      "Exposed Brick"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Historic Brownstone",
+    "description": "A classic brownstone with a blend of historic charm and modern updates.",
+    "image": "https://via.placeholder.com/400x300?text=Historic+Brownstone",
+    "price_per_month": 4200,
+    "location": {
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "USA"
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "1900 sqft",
+    "features": ["Historic Details", "Renovated Kitchen", "Patio", "Fireplace"]
+  },
+  {
+    "id": 18,
+    "name": "Riverfront Cottage",
+    "description": "A quaint cottage with serene river views and a private dock.",
+    "image": "https://via.placeholder.com/400x300?text=Riverfront+Cottage",
+    "price_per_month": 3100,
+    "location": {
+      "city": "Portland",
+      "state": "Maine",
+      "country": "USA"
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "1600 sqft",
+    "features": ["River Views", "Private Dock", "Hardwood Floors", "Garden"]
+  },
+  {
+    "id": 19,
+    "name": "Eco-Friendly Home",
+    "description": "A sustainable home with solar panels and energy-efficient appliances.",
+    "image": "https://via.placeholder.com/400x300?text=Eco-Friendly+Home",
+    "price_per_month": 2900,
+    "location": {
+      "city": "Denver",
+      "state": "Colorado",
+      "country": "USA"
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "1800 sqft",
+    "features": [
+      "Solar Panels",
+      "Energy-Efficient Appliances",
+      "Modern Design",
+      "Garden"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Suburban Dream",
+    "description": "A spacious suburban home with a large backyard and family-friendly features.",
+    "image": "https://via.placeholder.com/400x300?text=Suburban+Dream",
+    "price_per_month": 2600,
+    "location": {
+      "city": "Dallas",
+      "state": "Texas",
+      "country": "USA"
+    },
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": "2400 sqft",
+    "features": ["Large Backyard", "Family Room", "Patio", "Garage"]
+  },
+  {
+    "id": 21,
+    "name": "Traditional Thai Teakwood House",
+    "description": "A traditional Thai home built entirely with teakwood, featuring a raised platform and open verandas.",
+    "image": "https://via.placeholder.com/400x300?text=Thai+Teakwood+House",
+    "price_per_month": 950,
+    "location": {
+      "city": "Chiang Mai",
+      "country": "Thailand"
+    },
+    "features": [
+      "Teakwood Construction",
+      "Stilted Design",
+      "Open Veranda",
+      "Ornate Carvings"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Balinese Heritage Villa",
+    "description": "A luxurious villa with a blend of traditional Balinese architecture and modern amenities.",
+    "image": "https://via.placeholder.com/400x300?text=Balinese+Heritage+Villa",
+    "price_per_month": 2400,
+    "location": {
+      "city": "Ubud",
+      "country": "Indonesia"
+    },
+    "features": [
+      "Private Pool",
+      "Tropical Garden",
+      "Open-Air Design",
+      "Carved Wooden Doors"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Vietnamese Colonial Home",
+    "description": "A colonial-style house with French architectural influence and vintage charm.",
+    "image": "https://via.placeholder.com/400x300?text=Vietnamese+Colonial+Home",
+    "price_per_month": 1200,
+    "location": {
+      "city": "Hanoi",
+      "country": "Vietnam"
+    },
+    "features": [
+      "French Windows",
+      "Courtyards",
+      "Vintage Furniture",
+      "Tiled Roof"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Filipino Bahay Kubo",
+    "description": "A simple bamboo and nipa hut commonly found in rural areas, promoting sustainable living.",
+    "image": "https://via.placeholder.com/400x300?text=Filipino+Bahay+Kubo",
+    "price_per_month": 700,
+    "location": {
+      "city": "Cebu",
+      "country": "Philippines"
+    },
+    "features": [
+      "Bamboo Walls",
+      "Nipa Roof",
+      "Raised Floor",
+      "Open Ventilation"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Colonial Bungalow",
+    "description": "A colonial-era bungalow with wide verandas, high ceilings, and a peaceful garden.",
+    "image": "https://via.placeholder.com/400x300?text=Colonial+Bungalow",
+    "price_per_month": 1300,
+    "location": {
+      "city": "George Town",
+      "country": "Malaysia"
+    },
+    "features": [
+      "Spacious Verandas",
+      "Tropical Garden",
+      "Vintage Tiles",
+      "High Ceilings"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Laotian Traditional Home",
+    "description": "A traditional Laotian home with wooden construction and cultural elements.",
+    "image": "https://via.placeholder.com/400x300?text=Laotian+Traditional+Home",
+    "price_per_month": 800,
+    "location": {
+      "city": "Luang Prabang",
+      "country": "Laos"
+    },
+    "features": [
+      "Wooden Architecture",
+      "Cultural Decor",
+      "Stilted Design",
+      "Lush Surroundings"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Cambodian Wooden Villa",
+    "description": "A charming wooden villa surrounded by rice paddies and lush vegetation.",
+    "image": "https://via.placeholder.com/400x300?text=Cambodian+Wooden+Villa",
+    "price_per_month": 850,
+    "location": {
+      "city": "Siem Reap",
+      "country": "Cambodia"
+    },
+    "features": [
+      "Wooden Construction",
+      "Traditional Roof",
+      "Scenic Views",
+      "Large Porch"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Singapore Peranakan House",
+    "description": "A colorful Peranakan-style house with intricate tiles and unique designs.",
+    "image": "https://via.placeholder.com/400x300?text=Peranakan+House",
+    "price_per_month": 3500,
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore"
+    },
+    "features": [
+      "Colorful Facade",
+      "Ornate Tiles",
+      "Vintage Furnishings",
+      "Modern Upgrades"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Traditional Brunei Kampong House",
+    "description": "A traditional stilted house in a water village, showcasing Bruneian heritage.",
+    "image": "https://via.placeholder.com/400x300?text=Brunei+Kampong+House",
+    "price_per_month": 750,
+    "location": {
+      "city": "Bandar Seri Begawan",
+      "country": "Brunei"
+    },
+    "features": [
+      "Stilted Design",
+      "Wooden Construction",
+      "Waterfront Location",
+      "Open Layout"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Myanmar Colonial Estate",
+    "description": "A historic colonial estate with lush gardens and antique charm.",
+    "image": "https://via.placeholder.com/400x300?text=Colonial+Estate",
+    "price_per_month": 1600,
+    "location": {
+      "city": "Yangon",
+      "country": "Myanmar"
+    },
+    "features": [
+      "Expansive Gardens",
+      "Antique Furniture",
+      "Colonial Architecture",
+      "Spacious Interiors"
+    ]
+  }
+]

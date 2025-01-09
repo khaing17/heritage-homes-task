@@ -1,26 +1,36 @@
 <script setup lang="ts">
-import { cn } from '@/lib/utils'
+import { cn } from "@/lib/utils";
+import { ChevronDown } from "lucide-vue-next";
 import {
   NavigationMenuTrigger,
   type NavigationMenuTriggerProps,
   useForwardProps,
-} from 'radix-vue'
-import { computed, type HTMLAttributes } from 'vue'
-import { navigationMenuTriggerStyle } from '.'
+} from "radix-vue";
+import { computed, type HTMLAttributes } from "vue";
+import { navigationMenuTriggerStyle } from ".";
 
-const props = defineProps<NavigationMenuTriggerProps & { class?: HTMLAttributes['class'] }>()
+const props = defineProps<
+  NavigationMenuTriggerProps & { class?: HTMLAttributes["class"] }
+>();
 
 const delegatedProps = computed(() => {
-  const { class: _, ...delegated } = props
+  const { class: _, ...delegated } = props;
 
-  return delegated
-})
+  return delegated;
+});
 
-const forwardedProps = useForwardProps(delegatedProps)
+const forwardedProps = useForwardProps(delegatedProps);
 </script>
 
 <template>
-  <NavigationMenuTrigger v-bind="forwardedProps" :class="cn(navigationMenuTriggerStyle(), 'group', props.class)">
+  <NavigationMenuTrigger
+    v-bind="forwardedProps"
+    :class="cn(navigationMenuTriggerStyle(), 'group', props.class)"
+  >
     <slot />
+    <ChevronDown
+      class="relative top-px ml-1 h-4 w-4 transition duration-200 group-data-[state=open]:rotate-180"
+      aria-hidden="true"
+    />
   </NavigationMenuTrigger>
 </template>
