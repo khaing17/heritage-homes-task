@@ -1,10 +1,11 @@
 <template>
-  <div class="about-w">About.vue</div>
+  <div class="about-w">
+    About.vue
+  </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
 
-<style scoped>
-.about-w {
-}
-</style>
+</script>
+
+<style scoped></style>

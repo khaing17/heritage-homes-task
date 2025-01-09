@@ -2,7 +2,7 @@
   <div>
     <HeroBar />
     <main class="p-4">
-      <slot />
+      <router-view />
     </main>
   </div>
 </template>

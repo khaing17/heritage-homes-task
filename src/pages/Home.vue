@@ -4,7 +4,4 @@
 
 <script lang="ts" setup></script>
 
-<style scoped>
-.home-w {
-}
-</style>
+<style scoped></style>
