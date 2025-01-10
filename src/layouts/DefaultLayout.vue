@@ -1,7 +1,6 @@
 <template>
   <div>
     <HeroBar />
-    <NavBar />
     <main class="p-4">
       <router-view />
     </main>

@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Victorian Charm",
     "description": "A beautifully preserved Victorian-style home with intricate woodwork and stained glass windows.",
-    "image": "https://via.placeholder.com/400x300?text=Victorian+Charm",
+    "image": "https://media.istockphoto.com/id/1481643878/photo/american-style-country-house-on-a-striking-summer-day-with-blue-sky-beautiful-residential.jpg?s=2048x2048&w=is&k=20&c=nXWCoZJgyDep4MNLaVHM2V_Vxd5XngjYVMFn5rRKJto=",
     "price_per_month": 3200,
     "location": {
       "city": "San Francisco",
@@ -13,7 +13,15 @@
     "bedrooms": 4,
     "bathrooms": 2,
     "area": "2500 sqft",
-    "features": ["Garden", "High Ceilings", "Fireplace", "Hardwood Floors"]
+    "features": [
+      "Garden",
+      "High Ceilings",
+      "Fireplace",
+      "Hardwood Floors",
+      "Located In Heritage Zone",
+      "Renovated in the past 6 months"
+    ],
+    "housing_type": "House /Villa"
   },
   {
     "id": 2,
@@ -29,7 +37,16 @@
     "bedrooms": 3,
     "bathrooms": 3,
     "area": "2200 sqft",
-    "features": ["Porch", "Wood Paneling", "Large Yard", "Garage"]
+    "features": [
+      "Porch",
+      "Wood Paneling",
+      "Large Yard",
+      "Garage",
+      "Located In Heritage Zone",
+      "2 km away from Heritage Site",
+      "Pre-war period in 1939"
+    ],
+    "housing_type": "House /Villa"
   },
   {
     "id": 3,
@@ -49,8 +66,11 @@
       "Rooftop Terrace",
       "Swimming Pool",
       "Ocean View",
-      "Modern Kitchen"
-    ]
+      "Modern Kitchen",
+      "2 km away from Heritage Site",
+      "Post-war period in 1940"
+    ],
+    "housing_type": "Apartment"
   },
   {
     "id": 4,
@@ -70,8 +90,10 @@
       "Exposed Beams",
       "Stone Fireplace",
       "Quiet Neighborhood",
-      "Lush Garden"
-    ]
+      "Lush Garden",
+      "Pre-war period in 1939"
+    ],
+    "housing_type": "B&B & Small Hotels"
   },
   {
     "id": 5,
@@ -91,8 +113,11 @@
       "Antique Fixtures",
       "Vaulted Ceilings",
       "Historic Neighborhood",
-      "Balcony"
-    ]
+      "Balcony",
+      "Located In Heritage Zone",
+      "Post-war period in 1940"
+    ],
+    "housing_type": "Room in Home Stay"
   },
   {
     "id": 6,
@@ -112,8 +137,10 @@
       "Front Porch",
       "Built-In Shelves",
       "Hardwood Floors",
-      "Fireplace"
-    ]
+      "Fireplace",
+      "Renovated in the past 6 months"
+    ],
+    "housing_type": "Apartment"
   },
   {
     "id": 7,
@@ -129,7 +156,14 @@
     "bedrooms": 5,
     "bathrooms": 4,
     "area": "3500 sqft",
-    "features": ["Tile Roof", "Arched Windows", "Swimming Pool", "Garden"]
+    "features": [
+      "Tile Roof",
+      "Arched Windows",
+      "Swimming Pool",
+      "Garden",
+      "Located In Heritage Zone"
+    ],
+    "housing_type": "House /Villa"
   },
   {
     "id": 8,
@@ -149,8 +183,10 @@
       "Open Floor Plan",
       "Wood Accents",
       "Spacious Backyard",
-      "Large Windows"
-    ]
+      "Large Windows",
+      "2 km away from Heritage Site"
+    ],
+    "housing_type": "B&B & Small Hotels"
   },
   {
     "id": 9,
@@ -170,8 +206,11 @@
       "Wraparound Porch",
       "Barn-Style Doors",
       "Fireplace",
-      "Wood Paneling"
-    ]
+      "Wood Paneling",
+      "Pre-war period in 1939",
+      "Post-war period in 1940"
+    ],
+    "housing_type": "Room in Home Stay"
   },
   {
     "id": 10,
@@ -191,8 +230,10 @@
       "Minimalist Design",
       "Large Windows",
       "Terrace",
-      "Smart Home Features"
-    ]
+      "Smart Home Features",
+      "Located In Heritage Zone"
+    ],
+    "housing_type": "Apartment"
   },
   {
     "id": 11,
@@ -212,8 +253,11 @@
       "Symmetrical Architecture",
       "Expansive Garden",
       "Elegant Staircase",
-      "Library"
-    ]
+      "Library",
+      "2 km away from Heritage Site",
+      "Renovated in the past 6 months"
+    ],
+    "housing_type": "House /Villa"
   },
   {
     "id": 12,
@@ -233,8 +277,10 @@
       "Ocean View",
       "Private Deck",
       "Outdoor Shower",
-      "Open Concept Design"
-    ]
+      "Open Concept Design",
+      "Pre-war period in 1939"
+    ],
+    "housing_type": "B&B & Small Hotels"
   },
   {
     "id": 13,
@@ -250,7 +296,14 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "area": "1800 sqft",
-    "features": ["Mountain Views", "Fireplace", "Wooden Interiors", "Deck"]
+    "features": [
+      "Mountain Views",
+      "Fireplace",
+      "Wooden Interiors",
+      "Deck",
+      "Post-war period in 1940"
+    ],
+    "housing_type": "Room in Home Stay"
   },
   {
     "id": 14,
@@ -270,8 +323,10 @@
       "Exposed Beams",
       "Fireplace",
       "Lush Garden",
-      "Spacious Kitchen"
-    ]
+      "Spacious Kitchen",
+      "Located In Heritage Zone"
+    ],
+    "housing_type": "Apartment"
   },
   {
     "id": 15,
@@ -287,7 +342,15 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "area": "2400 sqft",
-    "features": ["Clean Lines", "Open Spaces", "Large Windows", "Outdoor Pool"]
+    "features": [
+      "Clean Lines",
+      "Open Spaces",
+      "Large Windows",
+      "Outdoor Pool",
+      "2 km away from Heritage Site",
+      "Renovated in the past 6 months"
+    ],
+    "housing_type": "House /Villa"
   },
   {
     "id": 16,
@@ -307,8 +370,10 @@
       "Industrial Accents",
       "Rooftop Deck",
       "High Ceilings",
-      "Exposed Brick"
-    ]
+      "Exposed Brick",
+      "Pre-war period in 1939"
+    ],
+    "housing_type": "B&B & Small Hotels"
   },
   {
     "id": 17,
@@ -324,7 +389,14 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "area": "1900 sqft",
-    "features": ["Historic Details", "Renovated Kitchen", "Patio", "Fireplace"]
+    "features": [
+      "Historic Details",
+      "Renovated Kitchen",
+      "Patio",
+      "Fireplace",
+      "Post-war period in 1940"
+    ],
+    "housing_type": "Room in Home Stay"
   },
   {
     "id": 18,
@@ -340,7 +412,14 @@
     "bedrooms": 3,
     "bathrooms": 2,
     "area": "1600 sqft",
-    "features": ["River Views", "Private Dock", "Hardwood Floors", "Garden"]
+    "features": [
+      "River Views",
+      "Private Dock",
+      "Hardwood Floors",
+      "Garden",
+      "Located In Heritage Zone"
+    ],
+    "housing_type": "Apartment"
   },
   {
     "id": 19,
@@ -360,8 +439,11 @@
       "Solar Panels",
       "Energy-Efficient Appliances",
       "Modern Design",
-      "Garden"
-    ]
+      "Garden",
+      "2 km away from Heritage Site",
+      "Renovated in the past 6 months"
+    ],
+    "housing_type": "House /Villa"
   },
   {
     "id": 20,
@@ -377,7 +459,14 @@
     "bedrooms": 4,
     "bathrooms": 3,
     "area": "2400 sqft",
-    "features": ["Large Backyard", "Family Room", "Patio", "Garage"]
+    "features": [
+      "Large Backyard",
+      "Family Room",
+      "Patio",
+      "Garage",
+      "Pre-war period in 1939"
+    ],
+    "housing_type": "B&B & Small Hotels"
   },
   {
     "id": 21,
@@ -393,8 +482,10 @@
       "Teakwood Construction",
       "Stilted Design",
       "Open Veranda",
-      "Ornate Carvings"
-    ]
+      "Ornate Carvings",
+      "Post-war period in 1940"
+    ],
+    "housing_type": "Room in Home Stay"
   },
   {
     "id": 22,
@@ -410,8 +501,10 @@
       "Private Pool",
       "Tropical Garden",
       "Open-Air Design",
-      "Carved Wooden Doors"
-    ]
+      "Carved Wooden Doors",
+      "Located In Heritage Zone"
+    ],
+    "housing_type": "Apartment"
   },
   {
     "id": 23,
@@ -427,8 +520,11 @@
       "French Windows",
       "Courtyards",
       "Vintage Furniture",
-      "Tiled Roof"
-    ]
+      "Tiled Roof",
+      "2 km away from Heritage Site",
+      "Renovated in the past 6 months"
+    ],
+    "housing_type": "House /Villa"
   },
   {
     "id": 24,
@@ -444,8 +540,10 @@
       "Bamboo Walls",
       "Nipa Roof",
       "Raised Floor",
-      "Open Ventilation"
-    ]
+      "Open Ventilation",
+      "Pre-war period in 1939"
+    ],
+    "housing_type": "B&B & Small Hotels"
   },
   {
     "id": 25,
@@ -461,8 +559,10 @@
       "Spacious Verandas",
       "Tropical Garden",
       "Vintage Tiles",
-      "High Ceilings"
-    ]
+      "High Ceilings",
+      "Post-war period in 1940"
+    ],
+    "housing_type": "Room in Home Stay"
   },
   {
     "id": 26,
@@ -478,8 +578,10 @@
       "Wooden Architecture",
       "Cultural Decor",
       "Stilted Design",
-      "Lush Surroundings"
-    ]
+      "Lush Surroundings",
+      "Located In Heritage Zone"
+    ],
+    "housing_type": "Apartment"
   },
   {
     "id": 27,
@@ -495,8 +597,11 @@
       "Wooden Construction",
       "Traditional Roof",
       "Scenic Views",
-      "Large Porch"
-    ]
+      "Large Porch",
+      "2 km away from Heritage Site",
+      "Renovated in the past 6 months"
+    ],
+    "housing_type": "House /Villa"
   },
   {
     "id": 28,
@@ -512,8 +617,10 @@
       "Colorful Facade",
       "Ornate Tiles",
       "Vintage Furnishings",
-      "Modern Upgrades"
-    ]
+      "Modern Upgrades",
+      "Pre-war period in 1939"
+    ],
+    "housing_type": "B&B & Small Hotels"
   },
   {
     "id": 29,
@@ -529,8 +636,10 @@
       "Stilted Design",
       "Wooden Construction",
       "Waterfront Location",
-      "Open Layout"
-    ]
+      "Open Layout",
+      "Post-war period in 1940"
+    ],
+    "housing_type": "Room in Home Stay"
   },
   {
     "id": 30,
@@ -546,7 +655,9 @@
       "Expansive Gardens",
       "Antique Furniture",
       "Colonial Architecture",
-      "Spacious Interiors"
-    ]
+      "Spacious Interiors",
+      "Located In Heritage Zone"
+    ],
+    "housing_type": "Apartment"
   }
 ]
